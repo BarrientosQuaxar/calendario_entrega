@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Citas</title>
+         <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+       <!-- <link rel="shortcut icon" href="cu.png" type="image/x-icon">
+       <%= stylesheet_link_tag     'application', media: 'all', 'data-turbolinks-track' => true %>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+        -->
+       <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head> 
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
+   
+<header>
+
+ <h1 class="Name">Nuevo Horizonte</h1>
+    <nav>    
+    <%= link_to "Registrate", home_registrate_path, class:"nav-link" %>  
+    
+    <%= link_to 'Inicio', bienvenido_path, class:"navbar-brand" %>
+     </nav>
+
+</header>
+
+
+</div>
+<body>
+
+<%= yield %>
+</body>
+
+    </html>

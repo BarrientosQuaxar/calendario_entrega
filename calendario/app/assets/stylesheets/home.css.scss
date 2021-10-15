@@ -1,0 +1,148 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Name {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: left;    
+    margin-bottom: 3px;
+}
+
+.titulo1 {
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 10cm;
+}
+.titulo2 {
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 10cm;
+  }
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 80px;
+    background:#b4c5ff;
+    /* fallback for old browsers */
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 0px 0px 0 0;
+}/*Se establecio que la navegación se encuentre a la derecha en la parte superior*/
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}/*La eqitueta nav fues establecida para navegar dentro de la página*/
+
+nav > a:hover{
+    text-decoration: underline;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center;
+    text-align: justify;
+  
+}
+
+
+.uno {
+    
+height: 800px;
+    width: 80%;
+    background-repeat: no-repeat;
+   background-image: url("casa1.jpg");
+   background-image:-moz-element();
+   background-size: cover;
+}
+.dos{
+    height: 800px;
+text-align: justify;
+font-size: 20px;
+background-color: rgb(0, 0, 0);
+margin-right: 10cm;
+width: 62%;
+
+}
+.principal{
+
+    display: flex;
+    width: 125%;
+    height: 9000%;
+    margin-top: 0px;
+    }
+
+
+
+
+    .cuarto {
+    
+
+        width: 70%;
+      
+        background-repeat: no-repeat;
+       background-image: url("casa3.jpg");
+       background-size: contain;
+   
+    }
+    .tercero{
+    text-align: justify;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10cm;
+    width: 30%;
+    height: 700%;
+   
+    }
+    .segundo{
+        vertical-align:top;
+        display: flex;
+        width: 125%;
+        height: 700%;
+       
+        }
+  
